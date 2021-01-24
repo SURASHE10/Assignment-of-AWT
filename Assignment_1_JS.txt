@@ -1,0 +1,154 @@
+1)
+function Que1 (age,name)
+{
+console.log(name+" "+"is"+" "+age+" "+"years old")
+
+} 
+Que1(22,"kshitija")
+
+
+ 
+VM422:1 kshitija is 22 years old
+undefined
+
+2)
+var details={ 
+    name:"kshitija",
+
+    age:22,
+ 
+   occ:"developer",
+
+    place:"ratnagiri" };
+ details['info']=details.name+" "+details.age+" "+details.occ+" "+details.place;
+
+
+o/p: 
+"kshitija 22 developer ratnagiri"
+
+Q3)
+var Que3=[31,"kshitija","sat",undefined,function(){return true;}];
+ Que3["sat"]="saturday"; 
+for(var k in Que3)
+{ 
+console.log(k+"="+Que3[k]);
+}
+
+ console.log(Que3);
+
+ Que3[1];
+
+o/p
+0=31
+1=kshitija
+2=sat
+ 
+3=undefined 
+4=function(){return true;}
+sat=saturday
+(5) [31, "kshitija", "sat", undefined, ƒ, sat: "saturday"]
+
+undefined
+
+"kshitija"
+
+Q4)
+
+var x=4;
+ function integer(x)
+{
+ if(!isNaN(x))
+{ 
+console.log("integer")
+ }else 
+{
+console.log("not integer")
+} 
+} 
+integer(5);
+
+
+O/P
+integer
+
+Q5)
+var sum=0;
+ var arr=[1,2,3,4,5]; 
+arr.forEach(add);
+ function add(num)
+{
+sum=sum+num; 
+return sum;
+} 
+console.log(sum);
+
+O/P
+ 15
+
+Q6) 
+function Que6(celsius)
+
+{
+    
+   var temp=celsius;
+    
+   var NewTemp= temp*9/5 +32;
+    
+   var convertTemp=temp+"\xB0C is"+NewTemp+" \xB0F.";
+    
+    
+   console.log(convertTemp);
+    
+
+
+}
+ 
+   Que6(40);
+  
+  
+O/P
+
+ 40°C is104 °F.
+
+Q7)
+function Que7(x)
+
+{
+   
+ if(x==0)
+   
+ {
+       
+ return 1;
+  
+  } 
+   
+ return x * Que7(x-1);
+
+} 
+console.log(Que7(6));
+
+
+O/P
+
+720
+
+Q8)
+
+function convert_to_Coins(amount){
+           var  tf = amount/25;   // tf=3
+            amount = amount % 25; // amount=12
+            var tn = amount/10; // tn=1
+            amount = amount % 10; //amount=2
+            var F = amount/5;
+            amount = amount % 5;
+            var t = amount/2;
+            amount = amount % 2;
+            console.log("Rs.25 Coins: "+Math.floor(tf));
+            console.log("Rs.10 Coins: "+Math.floor(tn));
+            console.log("Rs.5 Coins: "+Math.floor(F));
+            console.log("Rs.2 Coins: "+Math.floor(t));
+            console.log("Rs.1 Coins: "+Math.floor(amount));
+}
+
+convert_to_Coins(87);

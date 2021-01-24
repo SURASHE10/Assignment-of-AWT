@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            background-color: rgb(238, 201, 153);
+
+        }
+
+        header {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(90, 33, 85);
+            text-align: center;
+            color: aliceblue;
+            text-transform: uppercase;
+            text-shadow: black;
+        }
+
+        img {
+            position: absolute;
+            right: 20px;
+            top: 70px;
+            border: 2px solid black;
+
+        }
+
+        #right {
+            float: left;
+            padding-left: 5px;
+            height: auto;
+            width: 99%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        th {
+            background-color: rgb(202, 125, 122)
+        }
+
+        .projects {
+            border: 1px solid black;
+        }
+
+        .pd {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .al {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <b>AJINKYA DEEPAK SURASHE</b>
+        </h1>
+    </header>
+    <div><img src="IMG_20191028_212958_649" alt="Ajinkya" target_ width="150" height="150"></div>
+    <address>
+        N-2,p-4,19/5,vitthal nagar,cidco<br>
+        Aurangabad-431001 <br>
+        email id:
+        <a>surasheajinkya1995@gmail.com</a><br>
+        Mob. 8208912228
+
+    </address>
+
+
+
+    <p id="right">
+        <strong>
+            <h3>
+                <u>
+                    CAREER OBJECTIVES<br>
+                </u>
+            </h3>
+            I can use my Skills for the growth of organization and for my personal development as well. Always wants to
+            put the best in the work that I do.
+
+
+        </strong>
+    </p>
+    <p id="right">
+        <strong>
+            <h3>
+                <u>
+                    STRENGTH & SKILLS<br>
+                </u>
+            </h3>
+            Good analytical, interpersonal, communication & listening skills coupled with dedication and sincerity
+            towards the assigned job.
+        </strong>
+    </p>
+    <h3>
+        <u>EDUCATION QUALIFICATION</u>
+    </h3>
+    <table id="heading">
+        <tr>
+            <th>Course / Degree</th>
+            <th>Board / University</th>
+            <th>Year</th>
+        </tr>
+
+        <tr>
+            <td>B.E (Electrical Engineering)</td>
+            <td>Dr.BAMU University</td>
+            <td>2017</td>
+        </tr>
+        <tr>
+            <td>DIPLOMA</td>
+            <td>MSBTE</td>
+            <td>2014</td>
+        </tr>
+        <tr>
+            <td>S.S.C</td>
+            <td>SSC Board</td>
+            <td>2011</td>
+
+        </tr>
+    </table>
+    <h3>
+        <u>EXTRA QUALIFICATION</u>
+    </h3>
+    <ul>
+        <li>Successfully completed MS-CIT – Basic Computer Course (MS Word, MS Excel, MS Power
+            Point & Internet)
+        </li>
+        <li>Basic Autocad, Electrical Autocad.
+        </li>
+    </ul>
+
+    <h3>
+        <u>
+            TRAINING AND EXTRA CURRICULAR ACTIVITY.
+        </u>
+    </h3>
+    <ul>
+        <li>
+            Workshop In Government College of Engineering Aurangabad (Rotract Club of Cidco).
+        </li>
+        <li>
+            Winning price in Rotract Club in Add-Mad show
+        </li>
+        <li>
+            Participated Technotalent event in Apptitude Test 2014.
+        </li>
+    </ul>
+    <h3>
+        <u>
+            PROJECTS
+        </u>
+    </h3>
+    <P class="projects">
+        <strong>BE Project :</strong> A.C. Smart Drive Operated At Versatile Condition<br>
+        <strong>Technology :</strong>Using Micro Controller<br>
+        <strong>Details :</strong>To control speed of motor and auto-fault detection<br>
+    </P>
+        <u>
+            COMPETENCIES
+        </u>
+    </h3>
+    <p>
+    <ul>
+        <li>
+            Quick learner & adapts well to changes and pressure in work place.
+        </li>
+        <li>
+            Managing relationships & working efficiently with diverse groups of people.
+        </li>
+        <li>
+            Committed to meeting deadlines and schedules.
+        </li>
+        <li>
+            Leadership skills to lead projects & handle work independently.
+        </li>
+    </ul>
+    </p>
+
+    <h3>
+        <u>LANGUAGES KNOWN</u>
+    </h3>
+    <p>
+        English, Hindi, Marathi (Speak, Read, Write)
+    </p>
+    <h3>
+        <u>HOBBIES</u>
+    </h3>
+    <p>
+        Playing Cricket, Playing Football, Watching Movies.
+    </p>
+    <h3>
+        <u>DATE OF BIRTH</u>
+
+    </h3>
+    <p>26th July 1995</p>
+    <h3>
+        <u>NATIONALITY</u>
+    </h3>
+    <p>
+        Indian
+    </p>
+    <h3>
+        <u>REFERENCE</u>
+    </h3>
+    <p>
+        Available on request
+    </p>
+    <h3>
+        <u>DECLARATION</u>
+    </h3>
+    <p>
+        I hereby declare that the details furnished above are true to the best of my knowledge.
+    </p>
+
+    <p class="Pd">
+        Place:<br>Date
+    </p>
+    <p class="al">Ajinkya Deepak Surashe</p>
+</body>
+
+</html>
